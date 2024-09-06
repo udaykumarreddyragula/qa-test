@@ -126,17 +126,15 @@ Automated Testing: I have wrote a selenium script with which I have automated th
 
 Instructions to set up and run the automated test script:
 
->Import the TestScript project into any IDE which suppports java(I used Eclipse).
-
->Make sure that all the dependencies and jar files reuired are present in the project libraries.
-
->Make sure the project is of type Maven.
-
->select VerifyIntegrationOfFEBEServicesTest.java script under default package in the src/maim/java directory.
-
->Select the file VerifyIntegrationOfFEBEServicesTest.java and choose run option-Run As- TestNG Test.
-
->Observe that the script getting passed in case only of Proper message from backend.
+        >Create any simple java project to work with java in any IDE which supports java(I preferred Eclipse IDE) and cofigure/Covert this project to maven.
+        
+        >Import the VerifyIntegrationOfFEBEServicesTest.java into project and place it in any default Package in the src/maim/java directory.
+        
+        >To make sure that all the dependencies and jar files required are present in the project libraries , please copy the list of dependencies present in pom.xml file.
+        
+        >Select the file VerifyIntegrationOfFEBEServicesTest.java and choose run option-Run As- TestNG Test.
+        
+        >Observe that the script getting passed in case only of Proper message from backend.
 
 Solutions for Problem Statement 2:
 
